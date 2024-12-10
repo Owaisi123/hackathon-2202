@@ -1,14 +1,12 @@
-export type Discount = {
-  amount: number;
-  percentage: number;
-};
-
-export type Product = {
+export interface Product {
   id: number;
   title: string;
   srcUrl: string;
-  gallery?: string[];
+  gallery: string[];
   price: number;
-  discount: Discount;
+  discount: {
+    amount: number;
+    percentage: number;
+  };
   rating: number;
-};
+}

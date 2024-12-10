@@ -12,6 +12,9 @@ const Footer = () => {
   ];
 
   const socialIcons = [
+   
+     { src: '/svgs/twitter.svg', alt: 'Twitter' }
+    ,
     { src: '/svgs/twitter.svg', alt: 'Twitter' },
     { src: '/svgs/facebook.svg', alt: 'Facebook' },
     { src: '/svgs/insta.svg', alt: 'Instagram' },
